@@ -1,6 +1,6 @@
 {
   "name": "create_csapp",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CLI tool to easily scaffold and set up full-stack applications with React, Node.js, and popular libraries like Socket.IO, Redis, Kafka, Prisma, and more.",
   "main": "index.js",
   "bin": {
@@ -34,7 +34,6 @@
     "@types/fs-extra": "^11.0.4",
     "@types/gradient-string": "^1.1.6",
     "@types/node": "^22.7.2",
-    "inquirer": "^11.0.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   },
@@ -43,6 +42,7 @@
     "commander": "^12.1.0",
     "figlet": "^1.7.0",
     "fs-extra": "^11.2.0",
-    "gradient-string": "^2.0.2"
+    "gradient-string": "^2.0.2",
+    "inquirer": "^11.0.2"
   }
 }

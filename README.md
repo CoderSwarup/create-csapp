@@ -1,6 +1,6 @@
-# create-cspp
+# create_cspp
 
-**`create-cspp`** is a powerful CLI tool designed to streamline the process of setting up both frontend (React) and backend (Node.js) applications. With a single command, you can generate the basic project structure and easily add common development features to your projects, including Redux, Axios, Tailwind, Socket.IO, Redis, Kafka, Prisma, Swagger, and GraphQL setup.
+**`create_cspp`** is a powerful CLI tool designed to streamline the process of setting up both frontend (React) and backend (Node.js) applications. With a single command, you can generate the basic project structure and easily add common development features to your projects, including Redux, Axios, Tailwind, Socket.IO, Redis, Kafka, Prisma, Swagger, and GraphQL setup.
 
 This tool is ideal for developers who want to kickstart their project with an optimal and scalable structure.
 
@@ -24,13 +24,13 @@ This tool is ideal for developers who want to kickstart their project with an op
 First, you need to install the package globally to make use of the CLI.
 
 ```bash
-npm install -g create-cspp
+npm install -g create_cspp
 ```
 
 OR Use using the `npx`
 
 ```bash
-npm create-cspp
+npm create_cspp
 ```
 
 Once installed, you can use the `cspp` command to generate new applications or add features to existing projects.
@@ -42,7 +42,7 @@ Once installed, you can use the `cspp` command to generate new applications or a
 To create a new React frontend application:
 
 ```bash
-create-cspp frontend
+create_cspp frontend
 ```
 
 This will scaffold a new React application with a basic project structure.
@@ -52,17 +52,17 @@ This will scaffold a new React application with a basic project structure.
 To create a new Node.js backend application:
 
 ```bash
-create-cspp backend
+create_cspp backend
 ```
 
 This will scaffold a new Node.js application with Express.js, complete with a basic project structure.
 
 ### Add Features to Your Application
 
-You can also use `create-cspp` to easily add popular tools and features to your project.
+You can also use `create_cspp` to easily add popular tools and features to your project.
 
 ```bash
-create-cspp add <feature>
+create_cspp add <feature>
 ```
 
 For example:
@@ -70,62 +70,62 @@ For example:
 - Add **Redux** for state management:
 
   ```bash
-  create-cspp add redux
+  create_cspp add redux
   ```
 
 - Add **Axios** for HTTP requests:
 
   ```bash
-  create-cspp add axios
+  create_cspp add axios
   ```
 
 - Add **TailwindCSS** for styling:
 
   ```bash
-  create-cspp add tailwind
+  create_cspp add tailwind
   ```
 
 - Add **Socket.IO** for WebSocket communication:
 
   ```bash
-  create-cspp add socket-server
+  create_cspp add socket-server
   ```
 
 - Add **Redis** for caching and data persistence:
 
   ```bash
-  create-cspp add redis-server
+  create_cspp add redis-server
   ```
 
 - Add **Kafka** for event-driven architecture:
 
   ```bash
-  create-cspp add kafka-server
+  create_cspp add kafka-server
   ```
 
 - Add **Prisma** ORM for database interaction:
 
   ```bash
-  create-cspp add prisma
+  create_cspp add prisma
   ```
 
 - Add **Swagger** for API documentation:
 
   ```bash
-  create-cspp add swagger-api-doc
+  create_cspp add swagger-api-doc
   ```
 
 - Add **GraphQL** for building APIs:
 
   ```bash
-  create-cspp add graphql-server
+  create_cspp add graphql-server
   ```
 
 ### Available Commands
 
-- `create-cspp frontend`: Create a new frontend (React) application.
-- `create-cspp backend`: Create a new backend (Node.js) application.
-- `create-cspp add <feature>`: Add a feature to your project.
+- `create_cspp frontend`: Create a new frontend (React) application.
+- `create_cspp backend`: Create a new backend (Node.js) application.
+- `create_cspp add <feature>`: Add a feature to your project.
 
 ### List of Features
 
