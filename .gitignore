@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript compiled files
+dist
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Ignore lock files
+package-lock.json
+yarn.lock

@@ -1,0 +1,48 @@
+{
+  "name": "create_csapp",
+  "version": "1.0.0",
+  "description": "CLI tool to easily scaffold and set up full-stack applications with React, Node.js, and popular libraries like Socket.IO, Redis, Kafka, Prisma, and more.",
+  "main": "index.js",
+  "bin": {
+    "create_csapp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "Swarup Bhise",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoderSwarup/create-csapp"
+  },
+  "keywords": [
+    "fullstack",
+    "cli",
+    "react",
+    "node",
+    "typescript",
+    "npm-package"
+  ],
+  "bugs": {
+    "url": "https://github.com/CoderSwarup/create-csapp/issues"
+  },
+  "homepage": "https://github.com/CoderSwarup/create-csapp#readme",
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/fs-extra": "^11.0.4",
+    "@types/gradient-string": "^1.1.6",
+    "@types/node": "^22.7.2",
+    "inquirer": "^11.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "gradient-string": "^2.0.2"
+  }
+}
